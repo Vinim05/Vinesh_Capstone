@@ -7,4 +7,4 @@
 - Vinesh Murikinati, Computer Science, murikivr@mail.uc.edu
 
 ## Project Area
-- AI training / application
+- AI training / Data Maniuplation
