@@ -16,6 +16,8 @@ My name is Vinesh Murikinati, a Computer Science undergraduate at the University
 
 Our Senior Design Project will focus on developing an automated quantitative trading engine that identifies equity mispricings by combining Polymarket prediction data with AI-driven news and social media sentiment analysis. The system will stream real-time prediction market updates via WebSockets to calculate probability velocity when sudden shifts occur. An integrated NLP pipeline will simultaneously fetch and score real time news headlines and social media data to calculate a "News-backed Information Score". By comparing the of probability movement against the presence of verified news, the signal engine will distinguish between genuine fundamental catalysts and unsupported market noise. Validated signals are evaluated against stock volatility to trigger paper trades via sandbox equity APIs. The application will feature a centralized dashboard displaying probability feeds, sentiment scores, noise filtering diagnostics, and portfolio performance. The goal is to build an intelligent filtering system that leverages natural language processing and real-time prediction data to execute smarter, news-validated trades.
 
+Sign: Nikitha Murikinati
+
 ---
 
 ## Co-op Work Experience
