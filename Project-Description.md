@@ -1,7 +1,7 @@
 # Project Description
 
 ## Team Name
-- ViniAI (Will be chnaged later)
+- PolyPredict
 
 ## Member Details
 - Vinesh Murikinati, Computer Science, murikivr@mail.uc.edu
