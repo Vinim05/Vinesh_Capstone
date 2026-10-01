@@ -11,7 +11,7 @@
 ### US-01 — Primary
 
 As a **market researcher**,  
-I want to **identify significant shifts in prediction market probabilities and trading volume**,  
+I want to **identify significant shifts in prediction market sentiment**,  
 so that I can **investigate events that may affect publicly traded companies or industries**.
 
 ### US-02 — Secondary
