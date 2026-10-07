@@ -284,7 +284,7 @@ Methods return the specified success type or raise a `ComponentError` with the l
 
 ### Example request and response
 
-This synthetic example calls `detect_shift` for a market with a probability change of 0.08 and USD 1,500 volume increase.
+This example calls `detect_shift` for a market with a probability change of 0.08 and USD 1,500 volume increase.
 
 ```json
 {
