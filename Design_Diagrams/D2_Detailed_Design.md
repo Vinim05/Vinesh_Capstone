@@ -12,7 +12,7 @@ D0 defines six components and interfaces I1–I12. D1 covers **Data Storage**, *
 
 **Conventions:** Both D2 diagrams are written in Mermaid. Each diagram states its goal and explains its shapes and arrows. D0 interface numbers are unchanged. Field names in `monospace` are data or API fields; `PK` and `FK` retain their D1 meanings. All timestamps are UTC; probabilities and confidence values range from 0 to 1. Money uses decimal strings in APIs and integer cents in SQLite.
 
-**Open questions:** The chosen stock-data and paper-trading providers, including their exact response formats and rate limits, still need confirmation (Charlie). We also need to benchmark the local AI model (Vinesh) and decide how to implement the historical backtesting step in UC-01, which is different from D0's paper trading workflow (Charlie). The original User Stories do not specify separate non-functional targets, so the performance goals in Section 6 are proposed rather than tested results.
+**Open questions:** The chosen stock-data and paper-trading providers, including their exact response formats and rate limits. We also need to benchmark the local AI model (Vinesh) and decide how to implement the historical backtesting step in UC-01, which is different from D0's paper trading workflow (Charlie). The original User Stories do not specify separate non-functional targets, so the performance goals in Section 6 are proposed rather than tested results.
 
 ## 2. Finished components, the D2 diagrams
 
@@ -226,9 +226,9 @@ These decisions build on the D0 decision log and D1's relational database, thres
 
 | ID | Criterion | Issue and reviewing team | Action | Owner | Priority | Due date |
 |---|---|---|---|---|---|---|
-| PR-01 | Risk | EpistemicRAG: limited explanation of timeouts and invalid data | Add named error handling and recovery behavior in component descriptions and EC-01–EC-06 | Vinesh and Charlie | Must-fix | Before D2 submission |
-| PR-02 | Feasibility | EpistemicRAG: no measurable evaluation targets | Define testable goals for ingestion, detection, API responsiveness, and duplicate orders | Vinesh and Charlie | Must-fix | Before D2 submission |
-| PR-03 | Clarity | EpistemicRAG: API fields and response formats need detail | Specify typed collector, signal, and dashboard contracts in Section 2 | Vinesh and Charlie | Must-fix | Before D2 submission |
+| PR-01 | Risk | EpistemicRAG: limited explanation of timeouts and invalid data | Add named error handling and recovery behavior in component descriptions and EC-01–EC-06 | Vinesh and Charlie | High Priority | Before D2 submission |
+| PR-02 | Feasibility | EpistemicRAG: no measurable evaluation targets | Define testable goals for ingestion, detection, API responsiveness, and duplicate orders | Vinesh and Charlie | High Priority | Before D2 submission |
+| PR-03 | Clarity | EpistemicRAG: API fields and response formats need detail | Specify typed collector, signal, and dashboard contracts in Section 2 | Vinesh and Charlie | High Priority | Before D2 submission |
 
 **Proposed performance checks (not measured results):**
 
