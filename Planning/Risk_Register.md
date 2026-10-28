@@ -1,0 +1,16 @@
+# Risk Register
+
+Likelihood/impact are qualitative (Low/Medium/High). Triggers identify when mitigation should start, rather than only naming a general concern. IDs connect to Table 1 buffers and critical path.
+
+| ID | Category | Risk | Likelihood | Impact | Strategy | Mitigation | Owner | Trigger / schedule response |
+|---|---|---|---|---|---|---|---|---|
+| R1 | External/technical | Polymarket API changes, delays, or rate limits block the collector. | Medium | High | Reduce | Validate schemas, retry with bounded backoff, and use recorded sample payloads for testing. | Vinesh | Repeated API errors or unexpected fields during T2; use Jan 21–22 buffer, escalate to S1 review. |
+| R2 | External | Stock data or paper-trading provider is unavailable or has restrictive limits. | Medium | High | Reduce | Confirm providers before T5; keep provider adapters and test fixtures; demonstrate simulated results if external API is down. | Charlie | Credentials or sample requests fail by Feb 8; protect Feb 18–19 and Mar 4–5 buffers. |
+| R3 | Technical | Local Qwen3.5 9B inference is too slow or lacks sufficient memory. | High | High | Reduce | Benchmark local hardware early, use quantization and smaller batches, cap timeouts, and record failed analyses. | Vinesh | Model fails load or misses target runtime during T4; use Feb 4–5 contingency. |
+| R4 | Technical | Database mismatches or missing audit trail break end-to-end traceability. | Medium | High | Reduce | Add foreign-key constraints, unique records, contract tests, and migration tests. | Charlie | Saved signal cannot be traced to observation/analysis; use Mar 18–19 and Apr 5–9 fixes. |
+| R5 | Technical/ethical | Signals imply unsupported certainty or an unintended real trade occurs. | Low | High | Avoid | Hard-disable live brokerage execution, use paper-only credentials, include evidence/confidence and explicit no-trade results. | Charlie | Test detects live-order route or signal lacks traceable evidence; stop demo path until fixed in Apr 5–9. |
+| R6 | Team/schedule | Exams, co-op responsibilities, illness, or missed collaboration delay critical tasks. | High | High | Reduce | Weekly check-ins, share documentation, cross-review changes, split blocked work, and preserve 20% buffers plus April protected blocks. | Vinesh and Charlie | Any critical task slips more than two working days; replan next week's scope and alert advisor. |
+| R7 | Technical | News/social inputs are noisy or unavailable, leading to unreliable AI context. | Medium | Medium | Reduce | Track source/timestamp, label uncertainty, skip unsupported analysis, and use fixed fixtures for tests. | Vinesh | Missing or conflicting sources during T6; apply Feb 18–19 buffer. |
+| R8 | External/schedule | Spring break, course deadlines, or advisor availability conflict with demo review. | Medium | High | Accept / reduce | Confirm university calendar and advisor slot early; reserve Apr 12–16 stabilization and review block; keep recorded demo. | Both members | Review cannot be scheduled by Mar 19; use protected Apr 12–16 block and escalate. |
+
+**Highest-impact schedule exposures:** R1 delays T2→T3; R3 delays T4→T5; R2 delays T5→T7; R4 delays T9→T10; R6 can affect any critical-path task. The protected time blocks above and in Table 1 are intended for these risks.
