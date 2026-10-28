@@ -2,7 +2,6 @@
 
 **Project:** Prediction Market Sentiment Trading System  
 **Team:** Vinesh and Charlie  
-**Planning period:** Spring 2027 (proposed dates)
 
 1. **T1.** Develop the Data Storage database schema, relationships, and API methods for saving market observations, analyses, trading signals, and paper trades. **Owner: Charlie.**
 2. **T2.** Develop the Prediction Market Data Collector to retrieve, validate, and store Polymarket observations through the API. **Owner: Vinesh.**
