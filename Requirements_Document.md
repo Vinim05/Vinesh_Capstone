@@ -1,6 +1,6 @@
 # PolyPredict — Requirements Document
 
-**Version:** 1.1 (diagram-link revision)  
+**Version:** 1.1
 **Date:** October 30, 2026  
 **Team:** Vinesh Murikinati; Charlie Crocker  
 **Project:** Prediction Market Sentiment Trading System (PolyPredict)  
