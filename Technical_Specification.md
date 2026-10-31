@@ -1,6 +1,6 @@
 # PolyPredict — Technical Specification
 
-**Version:** 1.1 (diagram-link revision)  
+**Version:** 1.1
 **Date:** October 30, 2026  
 **Team:** Vinesh Murikinati; Charlie Crocker  
 **Traces to:** [Requirements_Document.md](Requirements_Document.md) **version 1.1 (2026-10-30)**. Requirement IDs and thresholds in this specification are defined by that version.
