@@ -107,9 +107,8 @@ ChatGPT did not make the team's final architecture, data-model, prioritization, 
 
 **Team confirmation:** We confirm that PolyPredict's architecture, data model, priorities, and design rationale are our own decisions and that AI assistance has been disclosed accurately.
 
-- **Vinesh Murikinati:** _________________________  **Date:** __________
-- **Charlie Crocker:** ___________________________  **Date:** __________
-
+- **Vinesh Murikinati:** _______Vinesh__________________  **Date:** ____11/11/26______
+- **Charlie Crocker:** _________Charlie__________________  **Date:** ____11/11/26______
 ---
 
 **Related project documents:** `Constraints_Essay.md` (Assignment #7); `Requirements_Document.md`; `Technical_Specification.md` (data model, stack and D0–D2 interfaces); `Test_Plan.md` (verification criteria). Before final submission, reconcile this statement with the latest Week 9 schema/stack, document completed security scans, finish the dependency license inventory, add the MIT `LICENSE`, and link this document from README section 5.
