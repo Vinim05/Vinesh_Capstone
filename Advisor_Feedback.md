@@ -12,11 +12,10 @@
 |---|---|
 | Date | November 17, 2026 |
 | Duration | 35 minutes |
-| Attendees | Vinesh Murikinati, Charlie Crocker, [Advisor placeholder] |
+| Attendees | Vinesh Murikinati, Charlie Crocker, Nikitha Murikinati |
 | Format | Microsoft Teams |
 | Deck reviewed | Latest draft available at the November 17 review (team-confirmed; exact reviewed filename/version ID not recorded) |
 | Revised deck checked | `PolyPredict_Spring_2027_Design_Presentation.pptx` |
-| Repository/commit | Not yet committed or recorded |
 
 ## 2. Feedback Log
 
@@ -44,5 +43,3 @@ The following dates are **proposed close dates** until the team confirms its sch
 | Commit the Spring 2027 timeline PPTX and deck PDF, plus `Advisor_Feedback.md` and `Advisor_Feedback.pdf`, to the team's `Presentation/` folder. | Vinesh | November 23, 2026 | Open |
 | Include the repository link and the reviewed-version commit hash in the Canvas submission comment and submit the PDFs. | Vinesh | November 23, 2026 | Open |
 | Implement, integrate, and test the PolyPredict system (Spring 2027). | Vinesh and Charlie | April 30, 2027 (proposed) | Open - planned |
-
-**Note:** The feedback-driven slide edits are complete. Implementation and testing are planned for Spring 2027, and long-term stock results will be observed afterward. The repository commit and Canvas submission have not been completed here.
