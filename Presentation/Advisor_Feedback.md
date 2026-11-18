@@ -15,7 +15,7 @@
 | Attendees | Vinesh Murikinati, Charlie Crocker, Nikitha Murikinati |
 | Format | Microsoft Teams |
 | Deck reviewed | Latest draft available at the November 17 review |
-| Revised deck checked | `PolyPredict_Fall_2027_Design_Presentation.pptx` |
+| Revised deck checked | `PolyPredict_Fall_2026_Design_Presentation.pptx` |
 
 ## 2. Feedback Log
 
