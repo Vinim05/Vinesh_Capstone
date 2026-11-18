@@ -14,8 +14,8 @@
 | Duration | 35 minutes |
 | Attendees | Vinesh Murikinati, Charlie Crocker, Nikitha Murikinati |
 | Format | Microsoft Teams |
-| Deck reviewed | Latest draft available at the November 17 review (team-confirmed; exact reviewed filename/version ID not recorded) |
-| Revised deck checked | `PolyPredict_Spring_2027_Design_Presentation.pptx` |
+| Deck reviewed | Latest draft available at the November 17 review |
+| Revised deck checked | `PolyPredict_Fall_2027_Design_Presentation.pptx` |
 
 ## 2. Feedback Log
 
