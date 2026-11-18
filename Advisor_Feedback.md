@@ -37,9 +37,4 @@ The following dates are **proposed close dates** until the team confirms its sch
 
 | Open item | Owner | Expected close date | Status |
 |---|---|---|---|
-| Replace the advisor-name placeholder with the advisor's actual name. | Vinesh | November 19, 2026 | Open |
-| Record the exact filename/version and commit hash of the deck reviewed at the meeting, if available. | Vinesh | November 19, 2026 | Open |
-| Confirm the proposed Spring 2027 implementation and testing milestones (Jan 29, Mar 26, Apr 30) with Charlie. | Vinesh and Charlie | November 20, 2026 | Open |
-| Commit the Spring 2027 timeline PPTX and deck PDF, plus `Advisor_Feedback.md` and `Advisor_Feedback.pdf`, to the team's `Presentation/` folder. | Vinesh | November 23, 2026 | Open |
-| Include the repository link and the reviewed-version commit hash in the Canvas submission comment and submit the PDFs. | Vinesh | November 23, 2026 | Open |
 | Implement, integrate, and test the PolyPredict system (Spring 2027). | Vinesh and Charlie | April 30, 2027 (proposed) | Open - planned |
